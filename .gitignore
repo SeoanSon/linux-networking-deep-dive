@@ -1,0 +1,39 @@
+# Git 제외 파일
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 시스템 파일
+.env
+.env.local
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.bak
+
+# 학습 개인 노트
+notes/
+my_notes.md
+
+# 실습 중 생성된 임시 파일
+/tmp/
+*.pyc
+__pycache__/
+
+# Kubernetes 설정 (민감 정보)
+kubeconfig
+.kube/
+*.key
+*.crt
+
+# 패킷 캡처 파일 (용량 크음)
+*.pcap
+*.pcapng
